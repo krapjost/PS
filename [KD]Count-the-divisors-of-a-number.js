@@ -1,3 +1,4 @@
+let bf, af, ms;
 const getDivisorsCnt = (n) => {
   let i = n, c = 0;
   while (i>0){
@@ -5,5 +6,8 @@ const getDivisorsCnt = (n) => {
   }
   return c;
 }
-
-console.log(getDivisorsCnt(1242))
+bf = Date.now()
+console.log(getDivisorsCnt(50000))
+af = Date.now()
+ms = new Date(af - bf).getMilliseconds()
+console.log("time took :", ms, "ms")

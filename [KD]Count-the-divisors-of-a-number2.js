@@ -1,3 +1,5 @@
+let bf, af, ms;
+
 function getDivisorsCnt(n){
     let cnt = 1
     for (let d=n/2; d>=1; d--){
@@ -7,4 +9,9 @@ function getDivisorsCnt(n){
     }
   return cnt
 }
-console.log(getDivisorsCnt(40000))
+
+bf = Date.now()
+console.log(getDivisorsCnt(50000))
+af = Date.now()
+ms = new Date(af - bf).getMilliseconds()
+console.log("time took :", ms, "ms")
