@@ -1,4 +1,4 @@
-function addBinary(a,b) {
+function addBinary1(a,b) {
   let sum = a+b
   let result = ""
   
@@ -9,5 +9,9 @@ function addBinary(a,b) {
   return [...result].reverse().join("")
 }
 
-console.log(addBinary(14,39))
+function addBinary2(a,b) {
+  return (a+b).toString(2)
+}
 
+console.log(addBinary1(14,39))
+console.log(addBinary2(14,39))
