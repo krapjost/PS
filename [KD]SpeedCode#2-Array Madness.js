@@ -20,4 +20,5 @@ function arrayMadness2(a, b) {
 3. 함수형 프로그래밍은 함수를 나눌 수 없을 때까지 나누는 것, 재사용성의 극대화, 다른 사람의 코드를 보니 너무 깔끔하다.
 */
 
-
+console.log((arrayMadness1([4,5,6],[1,2,3]))
+console.log((arrayMadness2([4,5,6],[1,2,3]))
