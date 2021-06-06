@@ -8,3 +8,7 @@ function rowSumOddNumbers(n) {
       result = (result*n)+a_num
       return result;
 }
+
+function rowSumOddNumbers(n) {
+  return n*n*n
+}
