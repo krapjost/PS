@@ -1,4 +1,10 @@
-function toCamelCase(str){
+function toCamelCase1(str){
+  return str.replace(/([-_])+\w/ig, function(match) { 
+    return match.charAt(match.length - 1).toUpperCase(); 
+  });
+}
+
+function toCamelCase2(str){
   if (!str) {
     return ""
   }
@@ -14,12 +20,13 @@ function toCamelCase(str){
       result = result.replace(result[0], result[0].toLowerCase())
     })()
   } else {
-    str.includes('-') 
+    str.includes('-')
     ? result = str.split('-').map(s=>s[0].toUpperCase()+s.slice(1)).join('')
     : result = str.split('_').map(s=>s[0].toUpperCase()+s.slice(1)).join('')
   }
     return result;
 }
 
-console.log(toCamelCase("to_camel_case"))
-console.log(toCamelCase("To-camel-case"))
+
+console.log(toCamelCase1('camel--case--Me'))
+console.log(toCamelCase2('Camel__case__me'))
