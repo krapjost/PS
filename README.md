@@ -1,2 +1,6 @@
+# Do problem solving til i can say 'no problem'
+ *매일 한 문제 풀기!*
 ### codeWarsTogether
-https://www.codewars.com 문제를 매일 1문제 이상 풀어봅니다.
+https://www.codewars.com 
+### leetcode
+https://leetcode.com/
