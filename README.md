@@ -37,6 +37,7 @@
 * [sum_of_odd_numbers.js](/ps/gidoong/codewars/7kyu/sum_of_odd_numbers.js)
 * [triangle_area.js](/ps/gidoong/codewars/7kyu/triangle_area.js)
 * [you_are_square.js](/ps/gidoong/codewars/7kyu/you_are_square.js)
+* [Waiting room.js](/ps/gidoong/codewars/7kyu/Waiting_room.js)
 
 ### 8kyu
 
