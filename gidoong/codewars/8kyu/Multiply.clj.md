@@ -1,3 +1,4 @@
+``` clj
 (ns multiply.bug.fix)
 
 ;; My solution
@@ -17,3 +18,4 @@
   3. ns는 네임스페이스, def는 정의문, defn은 def + fn 함수를 정의
   
 )
+```
