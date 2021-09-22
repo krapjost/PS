@@ -1,5 +1,11 @@
 # 문제해결기록 PS Logs
- #### *매일 한 문제 이상 풀기!*
+ #### *매일 한 문제*
+## leetcode
+
+### easy
+
+* [two_sum.js](/ps/gidoong/leetcode/easy/twoSum.js)
+
 
 ## codewars
 
