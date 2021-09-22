@@ -1,5 +1,4 @@
-# 문제해결기록 PS Logs
- #### *매일 한 문제*
+# PS
 ## leetcode
 
 ### easy
