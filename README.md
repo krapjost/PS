@@ -3,7 +3,8 @@
 
 ### easy
 
-* [two_sum.js](/ps/gidoong/leetcode/easy/twoSum.js)
+* [twosum.js](/ps/gidoong/leetcode/easy/twosum.js)
+* [reverse_integer.py](/ps/gidoong/leetcode/easy/reverse_integer.py)
 
 
 ## codewars
